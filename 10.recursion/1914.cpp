@@ -3,8 +3,6 @@
 using namespace std;
 
 void hanoi(int cur, int count, int dest){
-
-    ios:: sync_with_stdio(false);
     
     if(count == 1){
         cout << cur << " " << dest << "\n";
@@ -20,6 +18,7 @@ void hanoi(int cur, int count, int dest){
 }
 
 int main(){
+    ios:: sync_with_stdio(false);
 
     
     int d, k = 1;
