@@ -16,14 +16,14 @@ int main()
 
     for(int i = 0; i < d; i++){
         cin >> x >> y;
-        arr[i] = {x, y};
+        arr[i] = {y, x};
     }
     
 
     sort(arr, arr + d);
 
     for(int k = 0; k < d; k++){
-        cout << arr[k].first << " " << arr[k].second << "\n";
+        cout << arr[k].second << " " << arr[k].first << "\n";
     }
     
 
